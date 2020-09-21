@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="repository.roidy" name="roidy's test repository" version="0.0.1" provider-name="roidy">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0" />
+    </requires>
+    <extension point="xbmc.addon.repository" name="roidy's test repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/roidy/repository.roidy/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/roidy/repository.roidy/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/roidy/repository.roidy/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>roidy's test repository</summary>
+        <description>Just some stuff....</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon><addon id="skin.singular" version="0.0.1~alpha" name="Singular" provider-name="roidy">
+    <requires>
+        <import addon="xbmc.gui" version="5.14.0" />
+        <import addon="script.toolbox" version="1.0.0" />
+        <import addon="script.embuary.helper" version="1.0.0" />
+        <import addon="script.embuary.info" version="1.0.0" />
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+        <res width="3840" height="2160" aspect="16:9" default="true" folder="xml" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Singular by roidy</summary>
+        <platform>all</platform>
+        <license />
+        <forum /> 
+        <website />
+        <email />
+        <source />
+        <assets>
+        </assets> 
+    </extension>
+</addon></addons>
