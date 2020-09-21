@@ -5,9 +5,9 @@
     </requires>
     <extension point="xbmc.addon.repository" name="roidy's test repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/roidy/repository.roidy/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/roidy/repository.roidy/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/roidy/repository.roidy/master/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/roidy/repository.roidy/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/roidy/repository.roidy/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/roidy/repository.roidy/master/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
