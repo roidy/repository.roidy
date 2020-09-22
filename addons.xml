@@ -1,25 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="repository.roidy" name="roidy's test repository" version="0.0.1" provider-name="roidy">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0" />
-    </requires>
-    <extension point="xbmc.addon.repository" name="roidy's test repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/roidy/repository.roidy/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/roidy/repository.roidy/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/roidy/repository.roidy/master/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>roidy's test repository</summary>
-        <description>Just some stuff....</description>
-        <disclaimer />
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon><addon id="skin.singular" version="0.0.2~alpha" name="Singular" provider-name="roidy">
+<addons><addon id="skin.singular" version="0.0.2~alpha" name="Singular" provider-name="roidy">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.toolbox" version="1.0.0" />
@@ -39,5 +19,25 @@
         <source />
         <assets>
         </assets> 
+    </extension>
+</addon><addon id="repository.roidy" name="roidy's test repository" version="0.0.1" provider-name="roidy">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0" />
+    </requires>
+    <extension point="xbmc.addon.repository" name="roidy's test repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/roidy/repository.roidy/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/roidy/repository.roidy/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/roidy/repository.roidy/master/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>roidy's test repository</summary>
+        <description>Just some stuff....</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
     </extension>
 </addon></addons>
