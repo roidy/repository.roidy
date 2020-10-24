@@ -20,38 +20,4 @@
         <assets>
         </assets> 
     </extension>
-</addon><addon id="script.gtv.helper" name="GTV Helper" version="0.0.1" provider-name="roidy">
-    <requires>
-        <import addon="xbmc.python" version="2.25.0" />
-        <import addon="script.module.pil" version="1.1.7" />
-    </requires>
-
-    <extension point="xbmc.service" library="service.py" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">GTV helper</summary>
-        <description lang="en_GB">Helper script for GTV skin</description>
-        <platform>all</platform>
-    </extension>
-</addon><addon id="skin.gtv" version="0.0.1~alpha" name="GTV" provider-name="roidy">
-    <requires>
-        <import addon="xbmc.gui" version="5.14.0" />
-        <import addon="script.toolbox" version="1.0.0" />
-        <import addon="script.embuary.helper" version="1.0.0" />
-        <import addon="script.embuary.info" version="1.0.0" />
-        <import addon="script.gtv.helper" />
-    </requires>
-    <extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
-        <res width="3840" height="2160" aspect="16:9" default="true" folder="xml" />
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">GTV by roidy</summary>
-        <platform>all</platform>
-        <license />
-        <forum /> 
-        <website />
-        <email />
-        <source />
-        <assets>
-        </assets> 
-    </extension>
 </addon></addons>
