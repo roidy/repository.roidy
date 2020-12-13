@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="skin.singular" version="0.0.2~alpha" name="Singular" provider-name="roidy">
+<addons><addon id="skin.singular" name="Singular" provider-name="roidy" version="0.0.3~alpha">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.toolbox" version="1.0.0" />
         <import addon="script.embuary.helper" version="1.0.0" />
         <import addon="script.embuary.info" version="1.0.0" />
     </requires>
-    <extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
-        <res width="3840" height="2160" aspect="16:9" default="true" folder="xml" />
+    <extension debugging="false" effectslowdown="0.75" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="xml" height="2160" width="3840" />
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Singular by roidy</summary>
@@ -20,19 +20,19 @@
         <assets>
         </assets> 
     </extension>
-</addon><addon id="script.gtv.helper" name="GTV Helper" version="0.0.2" provider-name="roidy">
+</addon><addon id="script.gtv.helper" name="GTV Helper" provider-name="roidy" version="0.0.2">
     <requires>
         <import addon="xbmc.python" version="2.25.0" />
         <import addon="script.module.pil" version="1.1.7" />
     </requires>
 
-    <extension point="xbmc.service" library="service.py" />
+    <extension library="service.py" point="xbmc.service" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">GTV helper</summary>
         <description lang="en_GB">Helper script for GTV skin</description>
         <platform>all</platform>
     </extension>
-</addon><addon id="skin.gtv" version="0.0.3~alpha" name="GTV" provider-name="roidy">
+</addon><addon id="skin.gtv" name="GTV" provider-name="roidy" version="0.0.3~alpha">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.toolbox" version="1.0.0" />
@@ -40,8 +40,8 @@
         <import addon="script.embuary.info" version="1.0.0" />
         <import addon="script.gtv.helper" />
     </requires>
-    <extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
-        <res width="3840" height="2160" aspect="16:9" default="true" folder="xml" />
+    <extension debugging="false" effectslowdown="0.75" point="xbmc.gui.skin">
+        <res aspect="16:9" default="true" folder="xml" height="2160" width="3840" />
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">GTV by roidy</summary>
